@@ -1,163 +1,162 @@
-# 🏥 RK Health - AI-Powered Smart Patient Appointment & Medication Reminder System
+🏥 RK Health Management
+AI-Powered Smart Patient Appointment & Medication Reminder System
 
-<div align="center">
+An intelligent healthcare management platform that streamlines patient appointments, medication tracking, AI-generated health summaries, and secure health record management using modern web technologies and Artificial Intelligence.
 
+🚀 Overview
 
-**An AI-Powered Healthcare Management Platform for Smart Patient Care**
+RK Health Management is a full-stack AI-powered healthcare platform designed to simplify healthcare management for patients and healthcare providers. The system offers appointment scheduling, medication reminders, AI-assisted visit summaries, healthcare analytics, report generation, and secure patient record management through a responsive and user-friendly interface.
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)
-![Groq AI](https://img.shields.io/badge/Groq-AI-blueviolet)
-![JWT](https://img.shields.io/badge/JWT-Authentication-orange)
-![Twilio](https://img.shields.io/badge/Twilio-SMS-red)
-![Google Calendar](https://img.shields.io/badge/Google-Calendar-4285F4?logo=googlecalendar&logoColor=white)
+Built with scalability, security, and usability in mind, RK Health leverages cloud technologies, AI, and RESTful APIs to deliver a seamless healthcare experience.
 
-</div>
+✨ Features
+🔐 Authentication & Security
+Secure User Registration & Login
+JWT Authentication
+Password Encryption using bcrypt
+Protected API Routes
+Role-Based Access Control
+Secure Environment Configuration
+📅 Appointment Management
+Schedule Appointments
+Update Appointments
+Cancel Appointments
+Calendar Integration
+Appointment History
+💊 Medication Management
+Add Medications
+Edit Medication Schedules
+Smart Reminder System
+Medication Compliance Tracking
+Daily Medication Dashboard
+🤖 AI Healthcare Assistant
 
----
+Powered by Groq LLaMA 3.3-70B
 
-# 📖 Overview
+AI Visit Summaries
+Medical Report Simplification
+Follow-up Recommendations
+Medication Guidance
+Patient-Friendly Explanations
+📊 Dashboard
+Health Statistics
+Upcoming Appointments
+Medication Overview
+Recent Activities
+AI Insights
+Quick Actions
+📄 Report Management
 
-RK Health is an **AI-powered healthcare management platform** that enables patients to manage appointments, medication schedules, AI-generated visit summaries, healthcare reports, and personal health records from a single responsive dashboard.
+Generate professional healthcare reports in:
 
-The platform combines cloud technologies, Artificial Intelligence, secure authentication, and modern web development practices to simplify healthcare management for patients.
+PDF
+CSV
+Excel
 
----
+Including:
 
-# ✨ Key Features
+Appointment History
+Medication Records
+AI Health Summaries
+Activity Logs
+Personal Health Reports
+👤 Profile Management
+Personal Information
+BMI Calculator
+Insurance Details
+Medical Conditions
+Allergy Records
+Emergency Contact Information
+🔔 Notifications
+Medication Alerts
+Appointment Reminders
+System Notifications
+SMS Notifications (Twilio)
+🌙 User Experience
+Responsive Design
+Dark & Light Theme
+Mobile Friendly
+Modern Dashboard
+Interactive UI
+🏗️ System Architecture
+Frontend (HTML • CSS • JavaScript)
 
-- 👤 Secure User Registration & Login
-- 🔐 JWT-Based Authentication
-- 📅 Appointment Management
-- 💊 Medication Reminder Management
-- 🤖 AI-Powered Health Summary (Groq LLaMA 3.3-70B)
-- 📊 Dashboard Analytics
-- 📈 Medication Compliance Tracking
-- 📄 Health Report Generation (PDF/CSV/Excel)
-- 🔔 Notification Center
-- 📜 Activity Logs
-- 👨‍⚕️ Dynamic Doctor Management
-- 👤 User Profile Management
-- 🌙 Dark / Light Theme
-- 📱 Fully Responsive UI
-- ☁️ Cloud Database Integration
-- 🔒 Secure API Architecture
+            │
 
----
+            ▼
 
-# 🏗️ System Architecture
+Node.js + Express REST API
 
-```
-Frontend (HTML, CSS, JavaScript)
+            │
 
-        │
-
-        ▼
-
-Node.js + Express.js REST API
-
-        │
-
-        ▼
+            ▼
 
 JWT Authentication Middleware
 
-        │
+            │
 
-        ▼
+            ▼
 
 Prisma ORM
 
-        │
+            │
 
-        ▼
+            ▼
 
-Supabase PostgreSQL Database
+Supabase PostgreSQL
 
-        │
+            │
+     ┌──────┼─────────────┐
+     │      │             │
+     ▼      ▼             ▼
 
-        ├──────────────► Groq AI
-        │
-        ├──────────────► Twilio SMS
-        │
-        └──────────────► Google Calendar
-```
-
----
-
-# 🛠 Technology Stack
-
-## Frontend
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Vite
-
-## Backend
-
-- Node.js
-- Express.js
-
-## Database
-
-- PostgreSQL
-- Supabase
-
-## ORM
-
-- Prisma ORM
-
-## Authentication
-
-- JWT
-- bcrypt
-
-## AI
-
-- Groq API
-- LLaMA 3.3 70B Versatile
-
-## External APIs
-
-- Google Calendar API
-- Twilio SMS API
-
-## Deployment
-
-- GitHub Pages (Frontend)
-- Node.js Server
-- Supabase Cloud Database
-
----
-
-# 📂 Project Structure
-
-```
-RK-Health/
+ Groq AI  Twilio SMS  Google Calendar
+💻 Technology Stack
+Frontend
+HTML5
+CSS3
+JavaScript (ES6+)
+Vite
+Backend
+Node.js
+Express.js
+Database
+PostgreSQL
+Supabase
+ORM
+Prisma ORM
+Authentication
+JWT
+bcrypt
+Artificial Intelligence
+Groq API
+LLaMA 3.3 70B Versatile
+Third-Party Services
+Google Calendar API
+Twilio SMS API
+Deployment
+GitHub Pages
+Node.js Server
+Supabase Cloud
+📁 Project Structure
+RK-Health-Management/
 
 │
 ├── frontend/
 │   ├── src/
-│   ├── public/
+│   ├── assets/
 │   ├── components/
 │   ├── pages/
 │   ├── styles/
-│   └── assets/
+│   └── public/
 │
 ├── backend/
+│   ├── config/
 │   ├── controllers/
 │   ├── middleware/
+│   ├── prisma/
 │   ├── routes/
 │   ├── services/
-│   ├── prisma/
-│   ├── config/
 │   └── server.js
 │
 ├── documentation/
@@ -165,188 +164,105 @@ RK-Health/
 ├── README.md
 │
 └── package.json
-```
+🧩 Core Modules
+Authentication
+User Registration
+User Login
+JWT Authentication
+Protected Routes
+Logout
+Dashboard
+Healthcare Analytics
+Appointment Overview
+Medication Summary
+Activity Timeline
+AI Insights
+Appointment Management
+Create Appointment
+Edit Appointment
+Delete Appointment
+Calendar Integration
+Doctor Management
+Doctor Profiles
+Availability Management
+Appointment Allocation
+Medication Management
+Medication Scheduling
+Reminder Management
+Compliance Monitoring
+AI Summary
 
----
+Generate intelligent healthcare summaries using:
 
-# 🚀 Main Modules
+Appointment Details
+Doctor Notes
+Diagnosis
+Prescription
+Follow-up Instructions
 
-## Authentication
+Powered by Groq LLaMA 3.3 70B
 
-- User Registration
-- User Login
-- Secure JWT Authentication
-- Protected Routes
-- Logout
+Reports
 
----
+Export:
 
-## Dashboard
+PDF
+CSV
+Excel
 
-- Healthcare Statistics
-- Upcoming Appointments
-- Today's Medications
-- Activity Timeline
-- AI Insights
-- Quick Actions
+Includes:
 
----
+Appointment Reports
+Medication Reports
+AI Reports
+Activity Reports
+🔒 Security Features
+JWT Authentication
+Password Hashing
+Protected REST APIs
+Input Validation
+Environment Variables
+Secure Database Access
+Secure API Communication
+🤖 Artificial Intelligence
 
-## Appointment Management
+The application integrates Groq LLaMA 3.3-70B Versatile to provide:
 
-- Create Appointment
-- Edit Appointment
-- Delete Appointment
-- Calendar Integration
-- Doctor Management
+AI Healthcare Summaries
+Follow-up Recommendations
+Medication Guidance
+Healthcare Insights
+Patient-Friendly Medical Reports
+🗄 Database
 
----
+Supabase PostgreSQL with Prisma ORM
 
-## Medication Management
+Tables
+Users
+Doctors
+Appointments
+Medications
+AI Summaries
+Reports
+Notifications
+Activity Logs
+User Settings
+⚙️ Installation
+Clone Repository
+git clone https://github.com/yourusername/RK-Health-Management.git
 
-- Add Medication
-- Edit Medication
-- Delete Medication
-- Medication Compliance
-- Reminder Scheduling
-
----
-
-## AI Summary
-
-Generate patient-friendly healthcare summaries using:
-
-- Appointment Details
-- Doctor Notes
-- Diagnosis
-- Prescription
-- Follow-up Instructions
-
-Powered by **Groq LLaMA 3.3 70B**.
-
----
-
-## Reports
-
-Generate professional reports including:
-
-- Appointment History
-- Medication History
-- AI Summaries
-- Activity Logs
-- Health Information
-
-Export Formats:
-
-- PDF
-- CSV
-- Excel
-
----
-
-## Profile
-
-Manage
-
-- Personal Information
-- Health Information
-- BMI Calculation
-- Insurance Details
-- Medical Conditions
-- Allergies
-
----
-
-## Activity Logs
-
-Track
-
-- Login History
-- Appointment Activity
-- Medication Activity
-- Report Generation
-- AI Summary Generation
-
----
-
-# 🔒 Security Features
-
-- JWT Authentication
-- Password Hashing (bcrypt)
-- Protected REST APIs
-- Input Validation
-- Environment Variables
-- Database Access Control
-- Secure API Communication
-
----
-
-# 🤖 AI Integration
-
-RK Health uses **Groq LLaMA 3.3-70B Versatile** to generate:
-
-- Visit Summaries
-- Healthcare Insights
-- Medication Guidance
-- Follow-up Recommendations
-- Patient-Friendly Reports
-
----
-
-# 🗄 Database
-
-The application uses **Supabase PostgreSQL** with Prisma ORM.
-
-Main Tables:
-
-- Users
-- Appointments
-- Medications
-- AI Summaries
-- Reports
-- Notifications
-- Activity Logs
-- User Settings
-
----
-
-# ⚙️ Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/yourusername/rk-health.git
-
-cd rk-health
-```
-
----
-
-## Install Dependencies
-
-### Frontend
-
-```bash
+cd RK-Health-Management
+Install Dependencies
+Frontend
 cd frontend
-
 npm install
-```
-
-### Backend
-
-```bash
+Backend
 cd backend
-
 npm install
-```
+🔑 Environment Variables
 
----
+Create a .env file inside the backend folder.
 
-# 🔑 Environment Variables
-
-Create a `.env` file inside the backend folder.
-
-```env
 PORT=5000
 
 DATABASE_URL=
@@ -368,125 +284,84 @@ TWILIO_ACCOUNT_SID=
 TWILIO_AUTH_TOKEN=
 
 TWILIO_PHONE_NUMBER=
-```
-
----
-
-# 🗄 Prisma
+🗄 Prisma Setup
 
 Generate Client
 
-```bash
 npx prisma generate
-```
 
 Run Migration
 
-```bash
 npx prisma migrate dev
-```
-
----
-
-# ▶ Run Backend
-
-```bash
+▶ Running the Project
+Backend
 npm run dev
-```
-
----
-
-# ▶ Run Frontend
-
-```bash
+Frontend
 npm run dev
-```
+📸 Screenshots
+Module	Screenshot
+Landing Page	docs/images/landing.png
+Login	docs/images/login.png
+Dashboard	docs/images/dashboard.png
+Appointments	docs/images/appointments.png
+Medications	docs/images/medications.png
+AI Summary	docs/images/ai-summary.png
+Reports	docs/images/reports.png
+Profile	docs/images/profile.png
+🚀 Future Enhancements
+📱 Mobile Application
+👨‍⚕️ Doctor Portal
+🏥 Hospital Management Dashboard
+🎥 Video Consultation
+⌚ Wearable Device Integration
+📄 OCR Prescription Scanner
+🎙 Voice Assistant
+🚑 Emergency SOS
+👨‍👩‍👧 Family Health Management
+🧠 AI Disease Prediction
+📚 Documentation
 
----
+The project documentation includes:
 
-# 📷 Screenshots
+API Documentation
+Database Design
+Software Architecture
+Deployment Guide
+User Manual
+Security Documentation
+Testing Reports
+Developer Guide
+Final Project Report
+👥 Development Team
+Name	Role
+Member 1	Team Lead & Full Stack Developer
+Member 2	Frontend Developer
+Member 3	Backend Developer
+Member 4	Database & API Developer
+Member 5	AI Integration & Testing
 
-| Page | Screenshot |
-|------|------------|
-| Landing Page | docs/images/landing.png |
-| Login | docs/images/login.png |
-| Dashboard | docs/images/dashboard.png |
-| Appointments | docs/images/appointments.png |
-| Medications | docs/images/medications.png |
-| AI Summary | docs/images/ai-summary.png |
-| Reports | docs/images/reports.png |
-| Profile | docs/images/profile.png |
+(Replace the member names with your actual team members.)
 
----
+🙏 Acknowledgements
 
-# 🎯 Future Enhancements
+Special thanks to the open-source technologies and communities that made this project possible:
 
-- Mobile Application
-- Doctor Portal
-- Hospital Dashboard
-- Video Consultation
-- Wearable Device Integration
-- OCR Prescription Scanner
-- Voice Assistant
-- Emergency SOS
-- Family Health Management
-- AI Disease Prediction
+Groq AI
+Supabase
+Prisma ORM
+Twilio
+Google Calendar API
+Node.js
+Express.js
+PostgreSQL
+Vite
+GitHub
+📄 License
 
----
+This project is developed for academic, educational, and research purposes.
 
-# 📚 Documentation
+Licensed under the MIT License.
 
-Project documentation is available in the `documentation/` folder.
+⭐ Support
 
-- API Documentation
-- Database Documentation
-- System Architecture
-- Deployment Guide
-- User Manual
-- Security Documentation
-- Testing Documentation
-- Developer Guide
-- Project Report
-
----
-
-# 👨‍💻 Author
-
-**Mohan Sala**
-
-Computer Science Engineering Student
-
-AI & Full Stack Developer
-
----
-
-# 🙏 Acknowledgements
-
-Special thanks to the following technologies and communities:
-
-- OpenAI
-- Groq
-- Supabase
-- Prisma
-- Twilio
-- Google Calendar API
-- Node.js Community
-- Express.js
-- PostgreSQL
-- GitHub
-
----
-
-# 📄 License
-
-This project is developed for academic and educational purposes.
-
-MIT License
-
----
-
-<div align="center">
-
-### ⭐ If you found this project useful, please consider giving it a Star ⭐
-
-</div>
+If you found this project helpful, consider giving it a ⭐ Star on GitHub to support the project and future development.
