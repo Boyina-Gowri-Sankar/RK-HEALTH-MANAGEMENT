@@ -463,11 +463,11 @@ The project documentation includes:
 
 | Name | Role |
 |------|------|
-| **Member 1** | Team Lead & Full Stack Developer |
-| **Member 2** | Frontend Developer |
-| **Member 3** | Backend Developer |
-| **Member 4** | Database & API Developer |
-| **Member 5** | AI Integration & Testing |
+| **Rasmee Bonkuri** | Team Lead & Full Stack Developer |
+| **Kema Venkata Sai Priya** | Frontend Developer |
+| **Myalavarapu Noushik Babu** | Backend Developer |
+| **Naralasetty Nandini** | Database & API Developer |
+| **Gowri Sankar Boyina** | AI Integration & Testing |
 
 > Replace the member names with your actual team members.
 
